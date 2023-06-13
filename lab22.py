@@ -3,8 +3,7 @@ a=[]
 b=[]
 for i in s:
     if i in b:
-        pass
-    else:
         a=s.count(i)
         print("the no of {} is {}".format(i,a))
+    else:
         b.append(i)
